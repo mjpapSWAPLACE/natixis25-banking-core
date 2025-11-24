@@ -1,0 +1,30 @@
+name: Hello Natixis
+
+
+on:
+   workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu- latest
+    steps:
+      - name: obter codigo
+        run: echo""obter codigo"
+
+      - name: instalar 
+        run: echo "instalar dep"
+
+      - name: rodar
+        run: echo "rodar test"
+  Deploy:
+    runs-on: ubuntu- latest
+    steps:
+      - name: obter codigo
+        run: echo""obter codigo"
+
+      - name: instalar 
+        run: echo "instalar dep"
+
+      - name: rodar
+        run: echo "rodar test"
+
